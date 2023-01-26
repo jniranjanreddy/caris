@@ -1,0 +1,6 @@
+- name: Hello World Sample
+  hosts: localhost
+  tasks:
+    - name: This file exist in github
+      debug:
+        msg: "Hello Caris!"
